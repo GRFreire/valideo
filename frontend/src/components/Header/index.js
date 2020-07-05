@@ -7,7 +7,7 @@ function Header(props) {
     <Container>
       <Title>{props.title}</Title>
       <PhotoBox>
-        <Photo src={props.imgSrc} alt={'oi'} imgSize={175} />
+        <Photo src={props.imgSrc} alt={props.description} imgSize={175} />
         <PhotoDescription>{props.description}</PhotoDescription>
       </PhotoBox>
       <Instructions>{props.instructions}</Instructions>
