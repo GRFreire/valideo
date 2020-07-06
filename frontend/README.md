@@ -48,12 +48,12 @@ Desenvolvido durante o MegaHack 3ª Edição.
         </p></div>
     </td>
     <td style="display: flex; align-items: center; justify-content: center; flex-direction: row;  margin-right: 30px;">
-      <img src="https://avatars3.githubusercontent.com/u/38103866?s=460&u=244951efa29035b28d90d168c50cd497cde3b9d5&v=4" width="100px;"/>
+      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFSAMXSMmlI_A/profile-displayphoto-shrink_200_200/0?e=1599696000&v=beta&t=MvOSBdtl0b7pArUZkmX3eAhxGNGXUGksuwpqmz4UGto" width="100px;"/>
       <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-left: 10px;">
-        <p>Vinicius Mazon</p>
+        <p>Alejandro Wladimir Gonzalez Navarro</p>
         <p>
-          <a href="https://www.linkedin.com/in/vmazon/">LinkedIn</a>
-          <a href="https://github.com/ViniciusMazon">GitHub</a>
+          <a href="https://www.linkedin.com/in/alejandro-gonzález-navarro-5b50a1185">LinkedIn</a>
+          <a href="https://github.com/aleworkout7">GitHub</a>
         </p></div>
     </td>
   </tr>
