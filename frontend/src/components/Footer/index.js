@@ -17,12 +17,12 @@ function Footer() {
         <p>Saiba mais em
           <a href='#'>www.valideo.io</a>
         </p>
-        <p><a href="http://www.freepik.com">Art and icons designed by Freepik</a></p>
+        <p><a href="http://www.freepik.com" target="_blank">Art and icons designed by Freepik</a></p>
         <SocialMedia>
           <p>Siga-nos em nossas redes sociais</p>
           <span>
-            <a href='www.facebook.com'><FiFacebook size={30} color={'#2CAFDC'} /></a>
-            <a href='www.instagram.com'><FiInstagram size={30} color={'#2CAFDC'} /></a>
+            <a href='http://www.facebook.com' target="_blank"><FiFacebook size={30} color={'#2CAFDC'} /></a>
+            <a href='http://www.instagram.com' target="_blank"><FiInstagram size={30} color={'#2CAFDC'} /></a>
           </span>
         </SocialMedia>
       </Bottom>
