@@ -17,6 +17,7 @@ function Footer() {
         <p>Saiba mais em
           <a href='#'>www.valideo.io</a>
         </p>
+        <p><a href="http://www.freepik.com">Art and icons designed by Freepik</a></p>
         <SocialMedia>
           <p>Siga-nos em nossas redes sociais</p>
           <span>
