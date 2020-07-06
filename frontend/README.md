@@ -1,68 +1,109 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+	<img src="README/VALIDEO.png" alt="VALIDEO logo" height="160">
+</div>
 
-## Available Scripts
+<p>
+  <a href="#-sobre-o-projeto">💡 Sobre o projeto</a>
+  <br/>
+  <a href="#-tecnologias">🚀 Tecnologias</a>
+   <br/>
+  <a href="#-como-utilizar">⚙️ Como utilizar</a>
+   <br/>
+  <a href="#-scripts">🤖 Scripts</a>
+   <br/>
+  <a href="#-como-contribuir">🖖🏻 Como contribuir</a>
+   <br/>
+  <a href="#-license">📝 License</a>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 💡 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+App que conecta entregador e consumidor para auxiliar no estabelecimento de protocolos e procedimentos de cada entrega, tornando-a uma experiência mais segura e higiênica para os envolvidos.
 
-### `yarn test`
+Desenvolvido durante o MegaHack 3ª Edição.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🥇 Contribuidores
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<table>
+  <tr style="display: flex; align-items: center; justify-content: center; flex-direction: row;">
+    <td style="display: flex; align-items: center; justify-content: center; flex-direction: row;  margin-right: 30px;">
+      <img src="https://avatars3.githubusercontent.com/u/38103866?s=460&u=244951efa29035b28d90d168c50cd497cde3b9d5&v=4" width="100px;"/>
+      <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-left: 10px;">
+        <p>Vinicius Mazon</p>
+        <p>
+          <a href="https://www.linkedin.com/in/vmazon/">LinkedIn</a>
+          <a href="https://github.com/ViniciusMazon">GitHub</a>
+        </p></div>
+    </td>
+    <td style="display: flex; align-items: center; justify-content: center; flex-direction: row;  margin-right: 30px;">
+      <img src="https://avatars2.githubusercontent.com/u/41879254?s=460&v=4" width="100px;"/>
+      <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-left: 10px;">
+        <p>Guilherme Rugai Freire</p>
+        <p>
+          <a href="https://github.com/GRFreire">GitHub</a>
+        </p></div>
+    </td>
+    <td style="display: flex; align-items: center; justify-content: center; flex-direction: row;  margin-right: 30px;">
+      <img src="https://avatars3.githubusercontent.com/u/38103866?s=460&u=244951efa29035b28d90d168c50cd497cde3b9d5&v=4" width="100px;"/>
+      <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-left: 10px;">
+        <p>Vinicius Mazon</p>
+        <p>
+          <a href="https://www.linkedin.com/in/vmazon/">LinkedIn</a>
+          <a href="https://github.com/ViniciusMazon">GitHub</a>
+        </p></div>
+    </td>
+  </tr>
+</table>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# 🚀 Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* ReactJs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# ⚙️ Como utilizar
 
-## Learn More
+Clone o repositório:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+git clone https://github.com/GRFreire/valideo.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instale as dependências:
 
-### Code Splitting
+📁./frontend
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+yarn
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+# 🤖 Scripts
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+**Frontend:**
 
-### Advanced Configuration
+- `start`: Roda a aplicação
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+# 🖖🏻 Como contribuir
 
-### `yarn build` fails to minify
+- Faça um fork desse repositório;
+- Clone esse repositório em sua máquina: `` https://github.com/GRFreire/valideo.git ``
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+
+
+# 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
