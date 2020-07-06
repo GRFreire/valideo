@@ -16,24 +16,27 @@ import {
 } from './styles';
 
 import tempProduct from '../../assets/images/tempProduct.png';
-import tempImage from '../../assets/images/tempImage.png';
+
+import onlineMarketImage from '../../assets/images/online-market.jpg';
+import maskImage from '../../assets/images/mask.jpg';
+import disinfectantImage from '../../assets/images/disinfectant.jpg';
+import packageImage from '../../assets/images/package.jpg';
+
 
 const procedures = [
   [
-    { id: 0, title: 'Disponibilize uma máscara', description: 'A máscara de pano já é suficiente para te proteger', img: tempImage },
-    { id: 1, title: 'Disponibilize álcool em gel', description: 'Caso não tenha álcool em gel, utilize álcool 70%', img: tempImage },
-    { id: 2, title: 'Utilize máscara', description: 'O uso de máscara é essencial para mantê-lo seguro', img: tempImage },
-    { id: 3, title: 'Higienize as mãos com álcool em gel', description: 'Lave bem as mãos', img: tempImage },
+    { id: 0, title: 'Separe uma máscara', description: 'Uma máscara de pano já é suficiente para te proteger', img: maskImage },
+    { id: 1 , title: 'Separe álcool em gel', description: 'Caso não tenha álcool em gel, utilize álcool 70%', img: disinfectantImage }
   ],
   [
-    { id: 0, title: 'Disponibilize uma máscara', description: 'A máscara de pano já é suficiente para te proteger', img: tempImage },
-    { id: 1, title: 'Disponibilize álcool em gel', description: 'Caso não tenha álcool em gel, utilize álcool 70%', img: tempImage },
-    { id: 2, title: 'Utilize máscara', description: 'O uso de máscara é essencial para mantê-lo seguro', img: tempImage },
+    { id: 0, title: 'Utilize máscara', description: 'O uso de máscara é essencial para mantê-lo seguro', img: maskImage },
+    { id: 1, title: 'Pegue a encomenda sem contato', description: 'Mantenha uma distancia de no mínimo 1.5m', img: packageImage },
+    { id: 2, title: 'Utilize álcool em gel', description: 'Lembre-se de se higeniezar com frequencia', img: disinfectantImage },
   ],
   [
-    { id: 0, title: 'Disponibilize uma máscara', description: 'A máscara de pano já é suficiente para te proteger', img: tempImage },
-    { id: 1, title: 'Disponibilize álcool em gel', description: 'Caso não tenha álcool em gel, utilize álcool 70%', img: tempImage },
-    { id: 2, title: 'Utilize máscara', description: 'O uso de máscara é essencial para mantê-lo seguro', img: tempImage },
+    { id: 0, title: 'Retire a encomenda da embalagem', description: 'Tenha cuidado e atente-se onde a embalagem será descartada', img: packageImage },
+    { id: 1, title: 'Higienize as mãos com álcool em gel', description: 'Caso não tenha álcool em gel, utilize álcool 70%', img: disinfectantImage },
+    { id: 2, title: 'Retire a máscara', description: 'Retire sua máscara com segurança e a lave', img: maskImage },
   ]
 ]
 
@@ -70,7 +73,7 @@ function DeliveryInstructions() {
       />
 
       <Modal>
-        <ModalPhoto src={tempImage} />
+        <ModalPhoto src={onlineMarketImage} />
         <ModalInfo>
           <ModalName>Experiência agrádavel e segura na entrega</ModalName>
         </ModalInfo>

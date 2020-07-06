@@ -8,7 +8,8 @@ import {
   EvaluationTextContainer
 } from './styles';
 
-import tempImage from '../../assets/images/tempImage.png'
+import parkImage from '../../assets/images/park.jpg'
+import onlineExperienceImage from '../../assets/images/online-experience.jpg'
 
 function EvaluateDelivery() {
 
@@ -32,7 +33,7 @@ function EvaluateDelivery() {
     return (
       <Header
         title='Obrigado!'
-        imgSrc={tempImage}
+        imgSrc={parkImage}
         description=''
         instructions='Sua avaliação foi enviada com sucesso!'
       />
@@ -43,7 +44,7 @@ function EvaluateDelivery() {
     <>
       <Header
         title='Sua entrega'
-        imgSrc={tempImage}
+        imgSrc={onlineExperienceImage}
         description='Confirme o recebimento do seu pedido e avalie como foi a entrega'
         instructions='Marque os procedimentos que você observou que foram feitos'
       />

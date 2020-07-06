@@ -4,7 +4,7 @@ import { FiCheckCircle } from 'react-icons/fi';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
-import tempImage from '../../assets/images/tempImage.png'
+import deliveryImage from '../../assets/images/delivery.jpg'
 
 import { Container, SectionContainer, Sections, Section, SectionTitle, Steps, Step, Icon, StepDescription } from './styles';
 
@@ -12,9 +12,7 @@ const sections = [
   { id: 1, title: 'Antes da entrega', steps: [
     'Deixe uma autorização na portaria do seu prédio para o entregador',
     'Disponibilize uma máscara',
-    'Disponibilize álcool em gel',
-    'Utilize máscara',
-    'Higienize as mãos com álcool em gel'
+    'Disponibilize álcool em gel'
   ] },
   { id: 2, title: 'Na entrega', steps: [
     'Encontre o entregador',
@@ -22,9 +20,10 @@ const sections = [
     'Receba o produto'
   ] },
   { id: 3, title: 'Após a entrega, como higienizar seu produto', steps: [
-    'Disponibilize uma máscara',
-    'Disponibilize álcool em gel',
     'Utilize máscara',
+    'Higienize as mãos com álcool em gel',
+    'Retire o produto cuidadozamente da embalagem',
+    'Jogue a embalagem fora em um lugar seguro'
   ] },
 ]
 
@@ -33,7 +32,7 @@ function TodayInstructions() {
     <Container>
       <Header
         title="É Hoje"
-        imgSrc={tempImage}
+        imgSrc={deliveryImage}
         description="Você receberá seu pedido pela FedEx"
         instructions="Esses são os procedimentos que recomendamos que você siga"
       />
